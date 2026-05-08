@@ -1,333 +1,176 @@
 # Medusa
 
-> *"Look not upon her face..."*
+> In Greek mythology, the only mortal of the three Gorgon sisters, whose gaze turned onlookers to stone and who was beheaded by the hero Perseus; her severed head, the Gorgoneion, became Athena's apotropaic symbol set on the Aegis.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-mythological-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `medusa` |
 | **Category** | MYTHOLOGICAL_CREATURE |
-| **Classification** | Gorgon (Mortal) |
-| **First Recorded** | c. 700 BCE (Hesiod's Theogony) |
-| **Primary Region** | Ancient Greece |
-| **Status** | Mythological |
+| **Subcategory** | Greek mythological monster — mortal Gorgon |
+| **First recorded** | 0700-01-01 |
+| **Primary range** | Medusa is a figure of ancient Greek mythology, transmitted across the Greek and Roman Mediterranean and into the broader European tradition through Latin sources (notably Ovid) |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Medusa is the most famous of the three Gorgon sisters in Greek mythology, distinguished by her **mortal nature** while her sisters Stheno and Euryale were immortal.
-
-Characterized by living venomous snake hair, bronze hands, golden wings, boar tusks, and a **petrifying gaze** that turned anyone who looked directly at her to stone.
-
-According to later versions (particularly Ovid), Medusa was originally a beautiful woman cursed by Athena after being raped by Poseidon in Athena's temple. She was slain by the hero **Perseus**, who used the reflection in his polished shield to avoid her deadly gaze and beheaded her.
-
-From her blood sprang the winged horse **Pegasus** and the warrior **Chrysaor**. Her severed head retained its petrifying power and was given to Athena, who placed it on her shield, the **Aegis**.
-
-Medusa has become a powerful cultural symbol representing the apotropaic (warding off evil), female rage, and the victim/monster duality. **Modern feminist interpretations** reclaim her as a symbol of survival and power rather than monstrosity.
+Medusa (Ancient Greek: Μέδουσα, Médousa) is a figure of Greek mythology, one of the three Gorgon sisters — Stheno, Euryale and Medusa — daughters of the primordial sea-deities Phorcys and Ceto. Of the three only Medusa was mortal. She is described from Hesiod onward as a winged, snake-haired creature whose direct gaze petrified the viewer. The hero Perseus, sent by King Polydectes of Seriphos to fetch her head, used a polished shield from Athena, winged sandals from Hermes, an adamantine sickle and the cap of invisibility of Hades to behead her without meeting her eyes. From her severed neck sprang the winged horse Pegasus and the warrior Chrysaor, fathered by Poseidon. Perseus carried the head as a weapon and finally gave it to Athena, who set it (the Gorgoneion) on her shield, the Aegis. Ovid's Metamorphoses (Roman, 1st century CE) gives an influential later version in which Medusa was originally a beautiful mortal raped by Poseidon in Athena's temple and punished by Athena with her serpentine transformation — the version on which most modern feminist readings of Medusa as victim-turned-symbol draw.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Medousa | Ancient Greek | 'Guardian' or 'protectress', from medō ('to rule, guard') |
+| Gorgo / Gorgon | Ancient Greek | 'Dreadful one'; used for all three Gorgon sisters |
 
-### Primary Name
-- **Medusa** — From Greek "Medousa," from "medein" meaning "to protect" or "to rule" (Guardian, protectress, or ruler)
+## Etymology
 
-### Alternative Names
-
-| Name | Meaning |
-|------|---------|
-| Medusa Gorgon | Medusa the Gorgon |
-| Gorgo | Greek for Gorgon |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: MYTHOLOGICAL_CREATURE
-├── Type: Gorgon
-├── Subtype: Mortal Gorgon
-└── Variant: Greek
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| Gorgons | Family | Medusa is one of three Gorgon sisters |
-| Perseus | Slayer | Greek hero who beheaded Medusa |
-| [Pegasus](/pegasus) | Offspring | Winged horse born from Medusa's blood |
+- **Origin**: Ancient Greek Μέδουσα (Médousa), feminine present participle of the verb μέδω (medō, 'to rule, to guard, to protect').
+- **Meaning**: 'Guardian' or 'queen / ruler'.
+- **First use**: Earliest extant attestations in Hesiod's Theogony (c. 8th century BCE) and Homer (Iliad, Odyssey)
 
 ---
+## Related Phenomena
 
-## The Three Gorgon Sisters
-
-| Name | Status | Meaning | Fate |
-|------|--------|---------|------|
-| **Medusa** | Mortal | Guardian/protectress | Beheaded by Perseus |
-| **Stheno** | Immortal | The mighty or forceful | — |
-| **Euryale** | Immortal | The far-springer or wide-roaming | — |
-
-**Parents**: Phorcys (sea god) and Ceto (sea goddess)  
-**Siblings**: Stheno, Euryale, and other monstrous beings  
-**Offspring**: Pegasus and Chrysaor (born from her blood after beheading)
+- [Gorgons (Stheno, Euryale, Medusa)](../gorgon/) — _superset_: The three-sister Gorgon class of which Medusa is the mortal member
+- [Harpy](../harpy/) — _similar_: Other female Greek hybrid monsters
+- [Siren](../siren/) — _similar_: Other female Greek mythological figures of dangerous beauty
+- [Basilisk](../basilisk/) — _similar_: Later Mediterranean creature whose gaze likewise kills
+- [Cockatrice](../cockatrice/) — _similar_: Medieval European petrifying-gaze creature
 
 ---
+## Physical Description
 
-## Characteristics
+- **Morphology**: Hybrid female monster — winged, serpent-haired, with bestial features in archaic art (tusks, protruding tongue) softened in classical and later art into a beautiful but terrifying woman.
 
-### Physical Description
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Snake hair | Living venomous serpents instead of hair | Always |
-| Bronze hands | Hands made of bronze | Common |
-| Golden wings | Golden wings enabling flight | Common |
-| Boar tusks | Protruding tusks like a boar | Common |
-| Petrifying gaze | Eyes that turn onlookers to stone | Always |
-| Scaled skin | Serpentine or scaled skin texture | Occasional |
-| Lolling tongue | Protruding tongue in many depictions | Common |
+|---|---|---|
+| Snake hair | Living serpents in place of hair, sometimes also serpents girding her body | always |
+| Petrifying gaze | Direct eye-contact with Medusa turns the viewer to stone | always |
+| Wings | Golden wings on her back in Hesiod and most archaic depictions | common |
+| Tusks / boar's teeth | Archaic depictions show large protruding tusks and a wide grimace | common |
+| Bronze hands | Sometimes attributed in archaic and classical accounts | occasional |
+| Gorgoneion (severed head) | Her severed head retains its petrifying power and is set on the Aegis of Athena and on Perseus's shield | always |
 
-**Morphology**: Monstrous hybrid form with serpentine and bestial features. Earlier art depicts her as grotesque; later art sometimes shows her as beautiful with snakes for hair.
+## Reported Abilities
 
-**Mortality**: Mortal, unlike her immortal sisters Stheno and Euryale.
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Petrification by gaze | Anyone meeting Medusa's eyes is turned to stone | always | folklore |
+| Posthumous power | Her severed head retains its petrifying power and is wielded as a weapon by Perseus and as an apotropaic talisman by Athena | always | folklore |
+| Generative blood | Pegasus and Chrysaor spring from her neck at her death; the blood from her left side is poison and from her right side a healing balm (Apollodorus) | always | folklore |
 
-### Abilities
+## Behavior
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Petrification gaze | Anyone who looks directly at her face turns to stone instantly | Mythology |
-| Flight | Can fly using golden wings | Mythology |
-| Post-mortem power | Head retains petrifying power even after death | Mythology |
-
----
-
-## Origin Stories
-
-### Early Version (Hesiod)
-
-Born as a monster, daughter of primordial sea deities Phorcys and Ceto. No explanation for monstrous form.
-
-### Ovid's Version (Metamorphoses, c. 8 CE)
-
-**Original Form**: Beautiful maiden who served in Athena's temple  
-**Violation**: Raped by Poseidon in the temple  
-**Punishment**: Cursed by Athena and transformed into monster  
-**Interpretation**: Punishment for being raped reflects victim-blaming
-
-> This version introduces the **victim narrative** that has made Medusa a powerful symbol in modern feminist discourse.
+- **Activity**: unknown
+- **Disposition**: defensive
+- **Social structure**: family_group
+- **Habitat**: Edge of the world (the far west, beyond Ocean), Cave or rocky outcrop in later sources
 
 ---
+## Distribution
 
-## The Perseus Myth
+Medusa is a figure of ancient Greek mythology, transmitted across the Greek and Roman Mediterranean and into the broader European tradition through Latin sources (notably Ovid).
 
-### The Quest
+### Hotspots
 
-**Task**: Perseus tasked with bringing back Medusa's head by King Polydectes
-
-### Divine Aid
-
-- **Athena**: Polished bronze shield (to see reflection)
-- **Hermes**: Winged sandals
-- **Hades**: Helm of invisibility
-- **Given**: Adamantine sickle/sword
-
-### Strategy
-
-Perseus used the shield as a mirror to avoid Medusa's direct gaze and beheaded her while she slept.
-
-### Birth from Blood
-
-From Medusa's neck sprang **Pegasus** (winged horse) and **Chrysaor** (golden sword warrior), both fathered by Poseidon.
-
-### Aftermath
-
-The severed head was given to Athena, who placed it on her shield (**Aegis**) as protection and symbol of power.
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Seriphos / Argolid | Aegean, Greece |  | Archaic Greek period (c. 8th–6th c. BCE) |
+| Temple of Artemis, Corfu | Corfu, Greece |  | c. 580 BCE |
 
 ---
+## Historical Timeline
 
-## The Head as Weapon
+| Date | Event | Significance |
+|---|---|---|
+| 0700-01-01 | Hesiod's Theogony names the three Gorgons (Sthenno, Euryale, Medousa) as daughters of Phorcys and Ceto and recounts Medusa's beheading and the birth of Pegasus and Chrysaor | Earliest surviving canonical version |
+| 0580-01-01 | Pediment of the Temple of Artemis, Corfu, executed with a colossal Gorgon Medusa | Iconic archaic Gorgoneion |
+| 0008-01-01 | Ovid's Metamorphoses (Book IV) gives the Athena/Poseidon-temple version of Medusa's transformation | Foundational text for the later 'Medusa as victim' reading |
+| 1554-01-01 | Benvenuto Cellini completes his bronze Perseus with the Head of Medusa for the Loggia dei Lanzi, Florence | Definitive Renaissance treatment of the myth |
+| 1597-01-01 | Caravaggio paints his shield-like Medusa for Cardinal Francesco Maria del Monte | Among the most famous early-modern depictions |
+| 1922-01-01 | Sigmund Freud writes 'Das Medusenhaupt' (published posthumously 1940), reading Medusa as a symbol of castration anxiety | Foundational psychoanalytic reading |
+| 1975-01-01 | Hélène Cixous publishes 'Le Rire de la Méduse' (The Laugh of the Medusa) | Foundational feminist reading reclaiming Medusa as a symbol of female creative power |
 
-### Perseus's Use
+## Evidence
 
-Perseus used the severed head to petrify enemies including:
-- The sea monster **Cetus**
-- King **Polydectes**
-- Various other foes
+### Documentary
 
-### Athena's Aegis
-
-The head was placed on Athena's shield as the ultimate defensive weapon and symbol of power.
-
-### Apotropaic Function
-
-The image of Medusa (**gorgoneion**) was used throughout ancient Greece to **ward off evil**:
-- On shields and armor
-- On buildings and temples
-- As amulets and protective symbols
-
----
-
-## Symbolism & Interpretation
-
-### Ancient Symbolism
-
-1. **Apotropaic Symbol**: Medusa's face wards off evil; frightening image protects from harm
-2. **Power and Protection**: Symbol of ultimate power (on Athena's shield)
-3. **Danger**: Represents deadly feminine power
-4. **Transformation**: Death and rebirth (offspring from her blood)
-
-### Modern Feminist Interpretations
-
-#### Reclamation
-
-Modern feminists **reclaim Medusa** as a symbol of:
-- **Female rage and power**: Anger transformed into strength
-- **Survivor strength**: Represents survivors of sexual violence
-- **Victim/monster duality**: Punished for being victimized
-
-#### Critique
-
-Ovid's narrative seen as **victim-blaming**:
-- Athena punishes the victim (Medusa) rather than the rapist (Poseidon)
-- Transformation to "monster" represents society's treatment of assault survivors
-- Beauty to monstrousness reflects how victims are perceived
-
-#### Contemporary Symbol
-
-- Used by sexual assault survivors as symbol of transformation and power
-- Symbol of female rage against patriarchal violence
-- Represents societal treatment of victims, especially women
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Hesiod, Theogony 270–283 | c. 700 BCE | Earliest surviving canonical text naming the three Gorgons and describing the beheading of Medusa. | verified |
+| Pseudo-Apollodorus, Bibliotheca II | 1st–2nd c. CE | Detailed prose narrative of the Perseus cycle, including the Graeae, the cap of Hades, and the beheading of Medusa. | verified |
+| Ovid, Metamorphoses IV.770–803 | c. 8 CE | Ovid's account in which Medusa is originally beautiful and is transformed by Athena after Poseidon's rape in Athena's temple. | verified |
+| Perseus with the Head of Medusa (Cellini, 1554) | 1554 | Bronze sculpture by Benvenuto Cellini in the Loggia dei Lanzi, Florence. | verified |
 
 ---
+## Theories & Explanations
 
-## Artistic Representations
+### Scientific
 
-### Ancient Art
+**Apotropaic-image origin** _(Jane Ellen Harrison, Stephen R. Wilk)_
 
-- **Temple of Artemis, Corfu** (c. 580 BCE): Earliest large-scale Gorgon sculpture
-- **Greek vases** (Archaic-Classical periods): Numerous depictions of Perseus and Medusa
-- **Medusa Rondanini** (Roman copy): Beautiful Medusa head (Glyptothek Munich)
+Medusa originated as the personification of the apotropaic Gorgoneion, a wide-grinning protective face placed on shields, temples and amphorae across the archaic Greek and broader Mediterranean world. The narrative of Perseus accreted around the prior cult image.
 
-### Renaissance & Later
+**Psychoanalytic reading** _(Sigmund Freud)_
 
-- **Caravaggio's Medusa** (1597): Famous depiction on shield (Uffizi Gallery)
-- **Cellini's Perseus with the Head of Medusa** (1545-1554): Bronze sculpture (Piazza della Signoria, Florence)
-- Countless other artistic interpretations
+Freud's 1922 essay 'Das Medusenhaupt' reads the snake-haired head as a symbol of castration anxiety; the petrifying effect represents the spectator's response to a perceived loss.
 
-### Modern
+**Feminist reclamation** _(Hélène Cixous, Susan Bowers, Beth Seelig)_
 
-- Contemporary feminist art
-- **Versace logo** (commercial use)
-- Tattoo iconography
-- Protest and activist imagery
+From Cixous (1975) onward, Medusa is reread as a victim of patriarchal violence (Ovid's account) and as a symbol of suppressed female anger and creative power; this reading has dominated late 20th- and early 21st-century reception.
 
----
 
 ## Popular Culture
 
-**Literature**:
-- Classical Greek sources
-- Ovid's *Metamorphoses*
-- Percy Jackson series (Rick Riordan)
-- Feminist poetry and essays
+**Literature**: Hesiod, Theogony (c. 700 BCE); Pseudo-Apollodorus, Bibliotheca (1st–2nd c. CE); Ovid, Metamorphoses (c. 8 CE); Hélène Cixous, 'The Laugh of the Medusa' (1975); Stephen R. Wilk, Medusa: Solving the Mystery of the Gorgon (2000)
 
-**Film/TV**:
-- *Clash of the Titans* (1981, 2010)
-- Percy Jackson films
-- Various fantasy and mythological films
+**Film / TV**: Clash of the Titans (1981) — stop-motion Medusa by Ray Harryhausen; Clash of the Titans (2010) — remake; Percy Jackson & the Olympians: The Lightning Thief (2010); Percy Jackson and the Olympians (Disney+, 2023–)
 
-**Visual Arts**:
-- Caravaggio, Rubens, da Vinci, and countless other artists
-- Contemporary feminist art
-- **Versace logo**
+**Games**: Castlevania series; God of War (2005, 2018); Hades (Supergiant Games, 2020) — Megaera and the Furies
 
-**Other**:
-- Fashion and design
-- Tattoo iconography
-- Video games and RPGs
-- Activist and protest imagery
+**Music**: 'Medusa' — multiple songs in popular and metal traditions
+
+**Other**: Versace company logo (a Medusa-head Gorgoneion); Flag of Sicily (Trinacria with central Gorgoneion); Caravaggio's Medusa (c. 1597), Uffizi, Florence; Cellini's Perseus with the Head of Medusa (1554), Loggia dei Lanzi, Florence; Luciano Garbati's Medusa with the Head of Perseus (2008/2020)
 
 ---
+## Research
 
-## Cultural Impact
+### Researchers
 
-### As Apotropaic Symbol
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Jane Ellen Harrison | Newnham College, Cambridge | Influential reading of the Gorgoneion as a primary apotropaic cult image preceding the Perseus narrative | Late 19th – early 20th c. |
+| Stephen R. Wilk | Independent scholar | Medusa: Solving the Mystery of the Gorgon (2000) | 1990s–2000s |
+| Sigmund Freud | University of Vienna | 1922 essay 'Das Medusenhaupt' (publ. 1940) | 1920s |
+| Hélène Cixous | Université Paris VIII | Foundational feminist re-reading 'Le Rire de la Méduse' (1975) | 1970s–present |
 
-Throughout ancient Greece and Rome, Medusa's face was used to:
-- Protect buildings and temples
-- Adorn shields and armor
-- Create protective amulets
-- Ward off the "evil eye"
-
-### As Feminist Icon
-
-In modern times, Medusa has been reclaimed as:
-- **Symbol of survival**: Transforming trauma into strength
-- **Symbol of rage**: Female anger as justified and powerful
-- **Symbol of resistance**: Against patriarchal violence and victim-blaming
-
-### In Commercial Culture
-
-- **Versace logo**: Uses Medusa head as symbol of fatal attraction and beauty
-- Fashion and design imagery
-- Popular tattoo subject
+Ongoing scholarship in classics, art history, gender studies, and reception studies; major museum holdings of Gorgoneion iconography are catalogued at the British Museum, the Metropolitan Museum of Art, and the National Archaeological Museum of Athens.
 
 ---
+## Sources
 
-## Sources & References
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
 
-### Primary Sources
+## How to Report a Sighting
 
-- Hesiod. *Theogony* (c. 700 BCE)
-- Ovid. *Metamorphoses* (c. 8 CE)
-- Wilk, S.R. (2000). *Medusa: Solving the Mystery of the Gorgon*
-- Garber, M. & Vickers, N.J. (2003). *The Medusa Reader*
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/medusa/main/api.json
-```
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Full API](api.json) • [Sources](SOURCES.md)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

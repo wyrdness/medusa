@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/medusa",
     "maintainers": [
       {
@@ -16,71 +16,149 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "medusa",
     "name": "Medusa",
-    "aliases": [],
+    "aliases": [
+      { "name": "Medousa", "language": "Ancient Greek", "meaning": "'Guardian' or 'protectress', from medō ('to rule, guard')" },
+      { "name": "Gorgo / Gorgon", "language": "Ancient Greek", "meaning": "'Dreadful one'; used for all three Gorgon sisters" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Mortal Gorgon",
+    "subcategory": "Greek mythological monster — mortal Gorgon",
     "tags": [
-      "&-interpretation"
+      "greek-mythology",
+      "gorgon",
+      "perseus",
+      "athena",
+      "petrification",
+      "snake-haired",
+      "apotropaic",
+      "classical-antiquity"
     ],
     "status": "documented",
     "description": {
-      "summary": "Medusa is the most famous of the three Gorgon sisters in Greek mythology, distinguished by her **mortal nature** while her sisters Stheno and Euryale were immortal.",
-      "full": "Medusa is the most famous of the three Gorgon sisters in Greek mythology, distinguished by her **mortal nature** while her sisters Stheno and Euryale were immortal. Characterized by living venomous snake hair, bronze hands, golden wings, boar tusks, and a **petrifying gaze** that turned anyone who looked directly at her to stone. According to later versions (particularly Ovid), Medusa was originally a beautiful woman cursed by Athena after being raped by Poseidon in Athena's temple. She was slain by the hero **Perseus**, who used the reflection in his polished shield to avoid her deadly gaze and beheaded her. From her blood sprang the winged horse **Pegasus** and the warrior **Chrysaor**. Her severed head retained its petrifying power and was given to Athena, who placed it on her shield, the **Aegis**. Medusa has become a powerful cultural symbol representing the apotropaic (warding off evil), female rage, and the victim/monster duality. **Modern feminist interpretations** reclaim her as a symbol of survival and power rather than monstrosity."
+      "summary": "In Greek mythology, the only mortal of the three Gorgon sisters, whose gaze turned onlookers to stone and who was beheaded by the hero Perseus; her severed head, the Gorgoneion, became Athena's apotropaic symbol set on the Aegis.",
+      "full": "Medusa (Ancient Greek: Μέδουσα, Médousa) is a figure of Greek mythology, one of the three Gorgon sisters — Stheno, Euryale and Medusa — daughters of the primordial sea-deities Phorcys and Ceto. Of the three only Medusa was mortal. She is described from Hesiod onward as a winged, snake-haired creature whose direct gaze petrified the viewer. The hero Perseus, sent by King Polydectes of Seriphos to fetch her head, used a polished shield from Athena, winged sandals from Hermes, an adamantine sickle and the cap of invisibility of Hades to behead her without meeting her eyes. From her severed neck sprang the winged horse Pegasus and the warrior Chrysaor, fathered by Poseidon. Perseus carried the head as a weapon and finally gave it to Athena, who set it (the Gorgoneion) on her shield, the Aegis. Ovid's Metamorphoses (Roman, 1st century CE) gives an influential later version in which Medusa was originally a beautiful mortal raped by Poseidon in Athena's temple and punished by Athena with her serpentine transformation — the version on which most modern feminist readings of Medusa as victim-turned-symbol draw."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Ancient Greek Μέδουσα (Médousa), feminine present participle of the verb μέδω (medō, 'to rule, to guard, to protect').",
+      "meaning": "'Guardian' or 'queen / ruler'.",
+      "first_use": "Earliest extant attestations in Hesiod's Theogony (c. 8th century BCE) and Homer (Iliad, Odyssey)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Mortal Gorgon",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Greek mythological monster",
+      "subtype": "Gorgon",
+      "variant": "Mortal Gorgon (only one of three)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "gorgon", "name": "Gorgons (Stheno, Euryale, Medusa)", "relationship": "superset", "description": "The three-sister Gorgon class of which Medusa is the mortal member" },
+      { "id": "harpy", "name": "Harpy", "relationship": "similar", "description": "Other female Greek hybrid monsters" },
+      { "id": "siren", "name": "Siren", "relationship": "similar", "description": "Other female Greek mythological figures of dangerous beauty" },
+      { "id": "basilisk", "name": "Basilisk", "relationship": "similar", "description": "Later Mediterranean creature whose gaze likewise kills" },
+      { "id": "cockatrice", "name": "Cockatrice", "relationship": "similar", "description": "Medieval European petrifying-gaze creature" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Snake hair", "description": "Living serpents in place of hair, sometimes also serpents girding her body", "frequency": "always" },
+        { "feature": "Petrifying gaze", "description": "Direct eye-contact with Medusa turns the viewer to stone", "frequency": "always" },
+        { "feature": "Wings", "description": "Golden wings on her back in Hesiod and most archaic depictions", "frequency": "common" },
+        { "feature": "Tusks / boar's teeth", "description": "Archaic depictions show large protruding tusks and a wide grimace", "frequency": "common" },
+        { "feature": "Bronze hands", "description": "Sometimes attributed in archaic and classical accounts", "frequency": "occasional" },
+        { "feature": "Gorgoneion (severed head)", "description": "Her severed head retains its petrifying power and is set on the Aegis of Athena and on Perseus's shield", "frequency": "always" }
+      ],
+      "morphology": "Hybrid female monster — winged, serpent-haired, with bestial features in archaic art (tusks, protruding tongue) softened in classical and later art into a beautiful but terrifying woman."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Petrification by gaze", "description": "Anyone meeting Medusa's eyes is turned to stone", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Posthumous power", "description": "Her severed head retains its petrifying power and is wielded as a weapon by Perseus and as an apotropaic talisman by Athena", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Generative blood", "description": "Pegasus and Chrysaor spring from her neck at her death; the blood from her left side is poison and from her right side a healing balm (Apollodorus)", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "disposition": "defensive",
+      "social_structure": "family_group",
+      "habitat_preference": ["Edge of the world (the far west, beyond Ocean)", "Cave or rocky outcrop in later sources"],
+      "patterns": [
+        "Lives at the world's edge with her two immortal sisters",
+        "Sleeps when Perseus arrives, allowing her killing"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Medusa is a figure of ancient Greek mythology, transmitted across the Greek and Roman Mediterranean and into the broader European tradition through Latin sources (notably Ovid).",
+      "continents": ["Europe"],
+      "countries": ["Greece", "Italy"],
+      "regions": [
+        "Mediterranean basin",
+        "Mythic 'far west' beyond Ocean (in archaic geography)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Seriphos / Argolid",
+        "location": {
+          "description": "Mythic settings of the Perseus cycle: Seriphos (where Polydectes ruled) and Argos (Perseus's home)",
+          "country": "Greece",
+          "region": "Aegean",
+          "coordinates": { "latitude": 37.15, "longitude": 24.5 }
+        },
+        "peak_period": "Archaic Greek period (c. 8th–6th c. BCE)",
+        "notes": "Primary mythic settings of the Perseus–Medusa narrative"
+      },
+      {
+        "name": "Temple of Artemis, Corfu",
+        "location": {
+          "description": "Pediment of the Temple of Artemis at Corfu (c. 580 BCE) bearing one of the most famous archaic Gorgon depictions",
+          "country": "Greece",
+          "region": "Corfu",
+          "coordinates": { "latitude": 39.6202, "longitude": 19.9217 }
+        },
+        "peak_period": "c. 580 BCE",
+        "notes": "Archaeological example of archaic Gorgoneion iconography"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "c. 8th century BCE",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Hesiod, Theogony; Homer, Iliad and Odyssey"
+      },
+      "peak_activity_periods": [
+        { "period": "Archaic and Classical Greece (c. 8th–4th c. BCE)", "description": "Establishment of the Gorgoneion as apotropaic motif and of the Perseus cycle as canonical narrative" },
+        { "period": "Roman period (1st c. BCE – 1st c. CE)", "description": "Ovid's Metamorphoses introduces the Athena-curse / rape variant that dominates later reception" },
+        { "period": "Modern (19th c.–present)", "description": "Reuse in psychoanalysis (Freud), feminist criticism (Cixous), and popular culture" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Medusa belongs to the archaic Greek pantheon of chthonic, female monsters of the primordial generations preceding the Olympians; her snake hair and petrifying gaze reflect a wider Mediterranean apotropaic tradition.",
+      "earliest_accounts": "Hesiod (Theogony) and Homer (Iliad, Odyssey), 8th century BCE.",
+      "folklore_connections": "Connected with other gaze-creatures (basilisk, cockatrice) in later European tradition, and with broader Mediterranean apotropaic eye motifs."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0700-01-01", "event": "Hesiod's Theogony names the three Gorgons (Sthenno, Euryale, Medousa) as daughters of Phorcys and Ceto and recounts Medusa's beheading and the birth of Pegasus and Chrysaor", "significance": "Earliest surviving canonical version", "source": "Hesiod, Theogony 270–283" },
+      { "date": "0580-01-01", "event": "Pediment of the Temple of Artemis, Corfu, executed with a colossal Gorgon Medusa", "significance": "Iconic archaic Gorgoneion", "source": "Archaeological record, Corfu" },
+      { "date": "0008-01-01", "event": "Ovid's Metamorphoses (Book IV) gives the Athena/Poseidon-temple version of Medusa's transformation", "significance": "Foundational text for the later 'Medusa as victim' reading", "source": "Ovid, Metamorphoses IV" },
+      { "date": "1554-01-01", "event": "Benvenuto Cellini completes his bronze Perseus with the Head of Medusa for the Loggia dei Lanzi, Florence", "significance": "Definitive Renaissance treatment of the myth", "source": "Loggia dei Lanzi, Florence" },
+      { "date": "1597-01-01", "event": "Caravaggio paints his shield-like Medusa for Cardinal Francesco Maria del Monte", "significance": "Among the most famous early-modern depictions", "source": "Uffizi, Florence" },
+      { "date": "1922-01-01", "event": "Sigmund Freud writes 'Das Medusenhaupt' (published posthumously 1940), reading Medusa as a symbol of castration anxiety", "significance": "Foundational psychoanalytic reading", "source": "Freud, S. (1922 / 1940)" },
+      { "date": "1975-01-01", "event": "Hélène Cixous publishes 'Le Rire de la Méduse' (The Laugh of the Medusa)", "significance": "Foundational feminist reading reclaiming Medusa as a symbol of female creative power", "source": "Cixous, H. (1975), L'Arc 61" }
+    ],
+    "modern_era": "In the 20th and 21st centuries Medusa has been reread by psychoanalysts (Freud), feminists (Cixous, Bowers), and post-#MeToo writers as a victim-turned-symbol of female agency, and has remained omnipresent in fashion (Versace), film (Clash of the Titans, 1981 and 2010), video games and tattoo culture."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +169,145 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "medusa-evidence-hesiod",
+        "type": "ancient text",
+        "name": "Hesiod, Theogony 270–283",
+        "date": "c. 700 BCE",
+        "description": "Earliest surviving canonical text naming the three Gorgons and describing the beheading of Medusa.",
+        "status": "verified",
+        "analysis": "Foundational source for the entire later Medusa tradition.",
+        "source": "Hesiod, Theogony"
+      },
+      {
+        "id": "medusa-evidence-apollodorus",
+        "type": "ancient text",
+        "name": "Pseudo-Apollodorus, Bibliotheca II",
+        "date": "1st–2nd c. CE",
+        "description": "Detailed prose narrative of the Perseus cycle, including the Graeae, the cap of Hades, and the beheading of Medusa.",
+        "status": "verified",
+        "analysis": "Standard mythographic reference for the full Perseus narrative.",
+        "source": "Pseudo-Apollodorus, Bibliotheca"
+      },
+      {
+        "id": "medusa-evidence-ovid",
+        "type": "ancient text",
+        "name": "Ovid, Metamorphoses IV.770–803",
+        "date": "c. 8 CE",
+        "description": "Ovid's account in which Medusa is originally beautiful and is transformed by Athena after Poseidon's rape in Athena's temple.",
+        "status": "verified",
+        "analysis": "Foundational source for the later 'Medusa as victim' tradition.",
+        "source": "Ovid, Metamorphoses"
+      },
+      {
+        "id": "medusa-evidence-cellini",
+        "type": "sculpture",
+        "name": "Perseus with the Head of Medusa (Cellini, 1554)",
+        "date": "1554",
+        "description": "Bronze sculpture by Benvenuto Cellini in the Loggia dei Lanzi, Florence.",
+        "status": "verified",
+        "analysis": "Definitive Renaissance treatment of the myth.",
+        "source": "Loggia dei Lanzi, Florence"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
+    "scientific": [
+      {
+        "name": "Apotropaic-image origin",
+        "description": "Medusa originated as the personification of the apotropaic Gorgoneion, a wide-grinning protective face placed on shields, temples and amphorae across the archaic Greek and broader Mediterranean world. The narrative of Perseus accreted around the prior cult image.",
+        "proponents": ["Jane Ellen Harrison", "Stephen R. Wilk"],
+        "evidence_cited": ["Earliest visual Gorgoneia precede coherent narrative attestations", "Continuity with Near Eastern apotropaic faces"]
+      },
+      {
+        "name": "Psychoanalytic reading",
+        "description": "Freud's 1922 essay 'Das Medusenhaupt' reads the snake-haired head as a symbol of castration anxiety; the petrifying effect represents the spectator's response to a perceived loss.",
+        "proponents": ["Sigmund Freud"],
+        "evidence_cited": ["Symbolic reading of the snake hair and severed head"]
+      },
+      {
+        "name": "Feminist reclamation",
+        "description": "From Cixous (1975) onward, Medusa is reread as a victim of patriarchal violence (Ovid's account) and as a symbol of suppressed female anger and creative power; this reading has dominated late 20th- and early 21st-century reception.",
+        "proponents": ["Hélène Cixous", "Susan Bowers", "Beth Seelig"],
+        "evidence_cited": ["Ovid's Metamorphoses IV", "Late 20th-century French feminist criticism"]
+      }
+    ],
     "skeptical": []
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Greek mythological tradition (Hesiod, Homer, Pindar, Aeschylus, Pseudo-Apollodorus)",
+        "Roman mythological tradition (Ovid, Lucan)"
+      ],
+      "stories": [
+        "Perseus and Medusa (Hesiod; Pseudo-Apollodorus)",
+        "Athena's curse (Ovid)",
+        "The Gorgoneion as apotropaic device on Athena's Aegis"
+      ],
+      "beliefs": "In archaic and classical Greek practice the image of Medusa (the Gorgoneion) functioned as a powerful apotropaic device, set on shields, temple pediments, and household items to ward off evil."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Hesiod, Theogony (c. 700 BCE)",
+        "Pseudo-Apollodorus, Bibliotheca (1st–2nd c. CE)",
+        "Ovid, Metamorphoses (c. 8 CE)",
+        "Hélène Cixous, 'The Laugh of the Medusa' (1975)",
+        "Stephen R. Wilk, Medusa: Solving the Mystery of the Gorgon (2000)"
+      ],
+      "film_tv": [
+        "Clash of the Titans (1981) — stop-motion Medusa by Ray Harryhausen",
+        "Clash of the Titans (2010) — remake",
+        "Percy Jackson & the Olympians: The Lightning Thief (2010)",
+        "Percy Jackson and the Olympians (Disney+, 2023–)"
+      ],
+      "games": [
+        "Castlevania series",
+        "God of War (2005, 2018)",
+        "Hades (Supergiant Games, 2020) — Megaera and the Furies"
+      ],
+      "music": [
+        "'Medusa' — multiple songs in popular and metal traditions"
+      ],
+      "other": [
+        "Versace company logo (a Medusa-head Gorgoneion)",
+        "Flag of Sicily (Trinacria with central Gorgoneion)",
+        "Caravaggio's Medusa (c. 1597), Uffizi, Florence",
+        "Cellini's Perseus with the Head of Medusa (1554), Loggia dei Lanzi, Florence",
+        "Luciano Garbati's Medusa with the Head of Perseus (2008/2020)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jane Ellen Harrison", "affiliation": "Newnham College, Cambridge", "contribution": "Influential reading of the Gorgoneion as a primary apotropaic cult image preceding the Perseus narrative", "period": "Late 19th – early 20th c." },
+      { "name": "Stephen R. Wilk", "affiliation": "Independent scholar", "contribution": "Medusa: Solving the Mystery of the Gorgon (2000)", "period": "1990s–2000s" },
+      { "name": "Sigmund Freud", "affiliation": "University of Vienna", "contribution": "1922 essay 'Das Medusenhaupt' (publ. 1940)", "period": "1920s" },
+      { "name": "Hélène Cixous", "affiliation": "Université Paris VIII", "contribution": "Foundational feminist re-reading 'Le Rire de la Méduse' (1975)", "period": "1970s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing scholarship in classics, art history, gender studies, and reception studies; major museum holdings of Gorgoneion iconography are catalogued at the British Museum, the Metropolitan Museum of Art, and the National Archaeological Museum of Athens."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "hesiod-theogony", "type": "book", "title": "Theogony", "authors": ["Hesiod"], "publication": "Loeb Classical Library / Oxford World's Classics", "date": "c. 700 BCE" },
+    { "id": "apollodorus-bibliotheca", "type": "book", "title": "Bibliotheca (The Library)", "authors": ["Pseudo-Apollodorus"], "publication": "Loeb Classical Library", "date": "1st–2nd c. CE" },
+    { "id": "ovid-metamorphoses", "type": "book", "title": "Metamorphoses", "authors": ["Ovid"], "publication": "Loeb Classical Library", "date": "c. 8 CE" },
+    { "id": "wilk-2000", "type": "book", "title": "Medusa: Solving the Mystery of the Gorgon", "authors": ["Stephen R. Wilk"], "publication": "Oxford University Press", "date": "2000", "isbn": "978-0195124316" },
+    { "id": "cixous-1975", "type": "article", "title": "Le Rire de la Méduse (The Laugh of the Medusa)", "authors": ["Hélène Cixous"], "publication": "L'Arc 61", "date": "1975" },
+    { "id": "freud-1922", "type": "article", "title": "Das Medusenhaupt (Medusa's Head)", "authors": ["Sigmund Freud"], "publication": "Internationale Zeitschrift für Psychoanalyse", "date": "1922 (publ. 1940)" },
+    { "id": "wikipedia-medusa", "type": "website", "title": "Medusa", "url": "https://en.wikipedia.org/wiki/Medusa", "publication": "Wikipedia", "accessed": "2026-05-07" }
+  ]
 }
